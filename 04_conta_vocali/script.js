@@ -6,14 +6,14 @@ const word = 'javascript';
 // Dichiara la funzione qui.
 
 function cercaVocali(parola) {
-    let letteraParola = 0;
+    let letteraParola = 0; // se utilizzassi "" lo tramuterei in stringa
     let vocale = ["a", "e", "i", "o", "u"];
     for (i = 0; i < parola.length; i++) {
 
         for (j = 0; j < vocale.length; j++) {
 
             if (parola[i] === vocale[j]) {
-                letteraParola++;
+                letteraParola++; // se fosse una stringa ""  letteraParola = letteraParola + vocale[j]
             }
         }
     }
