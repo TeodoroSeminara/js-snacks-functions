@@ -5,9 +5,11 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
+const printName = () => console.log("Ciao", userName);
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+printName(userName);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
